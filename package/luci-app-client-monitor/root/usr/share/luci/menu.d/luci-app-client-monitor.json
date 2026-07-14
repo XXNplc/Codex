@@ -1,0 +1,13 @@
+{
+  "admin/status/client-monitor": {
+    "title": "在线设备",
+    "order": 65,
+    "action": {
+      "type": "view",
+      "path": "client_monitor/overview"
+    },
+    "depends": {
+      "acl": [ "luci-app-client-monitor" ]
+    }
+  }
+}
